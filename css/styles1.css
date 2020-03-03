@@ -25,7 +25,7 @@ body{
 	background-color: #faf3ed;
 }
 
-main{
+.main-index{
 	background-color: #ffffff;
 	margin-right:5%;
 	margin-left:5%;
@@ -43,7 +43,7 @@ main{
 	text-decoration: none;
 }
 
-img:hover{
+#index-img:hover, #div-folio:hover{
 	filter: brightness(112%);
 }
 
