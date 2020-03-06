@@ -5,7 +5,7 @@ main{
 	margin-left:5%;
 	margin-bottom: 3%;
 	padding-top: 4%;
-	padding-bottom: 4%;
+	padding-bottom: 1%;
 	padding-left: 7%;
 }
 
@@ -15,7 +15,7 @@ main{
   	width: 40%;
 }
 
-.proj-title, .proj-story{
+.proj-title, .proj-story, .proj-bg{
 	font-family: 'Open Sans Condensed';
 	color: #4d4a56;
 	float: left;
@@ -24,18 +24,34 @@ main{
 
 
 .proj-title{
-	font-size: 40px;
+	font-size: 38px;
 	margin-left: 37%;
 	top: 45%;
 }
 
-.proj-story{
+.proj-artist{
+	position: absolute;
+	float: left;
+	color: #424242;
+	font-size: 40px;
+	margin-left: 37%;
+	top: 60%;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 40px;
+}
+
+.proj-story, .proj-bg{
 	font-size: 14px;
 	left: 50%;
 	top: 60%;
 	width: 38%;
 }
 
+.proj-bg{
+	top: 78%;
+}
+
 .proj-description{
 	margin-bottom: 5%;
+	padding-bottom: 3%;
 }
